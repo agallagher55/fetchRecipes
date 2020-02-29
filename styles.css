@@ -1,0 +1,23 @@
+body{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    margin: 25;
+    padding: 10px 35px;
+    width: 300px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    /* border: 1px solid orange; */
+
+    flex-direction: column;
+    align-items: center;
+}
